@@ -6,6 +6,7 @@
 <br><br>
 
 Russian translations Author: RarogCmex
+
 This plugin adds Russian translations to the WonderCMS admin area, based on `https://github.com/StephanStanisic/zlanguage-nl_NL` (experimental version)
 
 ![](https://images.stanisic.nl/5oBG9Zaw/qU1dXIyr)
