@@ -28,13 +28,12 @@ MENU
     ">Website title",">Название сайта"
     ">Page to display on homepage",">Какая страница является главной"
     ">visit",">Открыть"
-    ">Add page",">Добавить страницу"
+    ">Add page","> Добавить страницу"
 
 
 FILES
     ">Upload",">Отправить на сервер"
     ">Delete files","> Удалить файлы"
-
 
 
 THEMES AND PLUGINS
