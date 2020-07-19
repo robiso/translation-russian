@@ -5,7 +5,6 @@ OVERLAYS
 
 BUTTONS
     ">Settings",">Настройки"
-    ">Logout","> Разлогиниться"
 
 
 MENU ITEMS
@@ -27,14 +26,16 @@ CURRENT PAGE
 
 
 MENU
-    ">Main website title",">Название всего вебсайта"
+    ">Website title",">Название сайта"
     ">Page to display on homepage",">Какая страница является главной"
-    ">Delete files","> Удалить файлы"
     ">visit",">Открыть"
     ">Add page",">Добавить страницу"
-    ">Add new page",">Добавляет новую страницу"
-    ">Footer",">Колонтитул (нижняя сноска, footer)"
+
+
+FILES
     ">Upload",">Отправить на сервер"
+    ">Delete files","> Удалить файлы"
+
 
 
 THEMES AND PLUGINS
