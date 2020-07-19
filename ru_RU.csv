@@ -39,12 +39,11 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Проверка обновлений"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Удалить $1?')"
-    "> Check for updates","> Проверить обновления"
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активировать $1 тему?')"
-    ">Activate","> Активировать"
-    ">More info","> Больше сведений"
-    ">Install","> Установить"
+    "> Activate","> Активировать"
+    "> More info","> Больше сведений"
+    "> Install","> Установить"
     ">Installed version:",">Установленная версия:"
     ">Custom repository",">Свой вариант репозитория"
     "Enter URL to custom repository","Введите URL своего варианта репозитория"
@@ -58,7 +57,7 @@ SECURITY
     ">Password",">Пароль"
     "Old password","Старый пароль"
     "New password","Новый пароль"
-    ">Change password","> Изменить пароль"
+    "> Change password","> Изменить пароль"
     
     ">Backup",">Резервное копирование"
     ">Backup website","Сделать резервную копию сайта"
@@ -67,7 +66,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Принудительное HTTPS, 30 дневное кеширование, iframes разрешены только с того же источника, защита от сниффинга mime-типов, более строгие политики для cookie и refferer механизмов."
     ">ON \(warning: may break your website\)",">ВКЛЮЧИТЬ (Внимание: может сломать Ваш вебсайт!)"
     ">OFF \(reset htaccess to default\)",">ОТКЛЮЧИТЬ (сбросить htaccess файл до дефолта)"
-    ">Read more before enabling","> Узнать больше перед тем, как включать"
+    "> Read more before enabling","> Узнать больше перед тем, как включать"
     ">Last 5 logins",">Последние 5 сохраненных входов"
 
 
