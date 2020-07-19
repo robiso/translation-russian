@@ -39,8 +39,6 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Проверка обновлений"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Удалить $1?')"
-    ">List of all themes","> Список всех тем"
-    ">List of all plugins",">Список всех плагинов"
     "> Check for updates","> Проверить обновления"
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активировать $1 тему?')"
