@@ -2,9 +2,11 @@ OVERLAYS
     ">Saving","> Сохранить"
     ">Checking for updates",">Проверка обновлений"
 
+
 BUTTONS
     ">Settings",">Настройки"
     ">Logout","> Разлогиниться"
+
 
 MENU ITEMS
     ">Current page",">Текущая страница"
@@ -14,7 +16,7 @@ MENU ITEMS
     ">Themes",">Темы"
     ">Plugins",">Плагины"
     ">Security",">Защита"
-    ">Statistics",">Статистика"
+
 
 CURRENT PAGE
     ">Page title",">Титул страницы"
@@ -23,7 +25,8 @@ CURRENT PAGE
     "> Delete page \((.*?)\)","> Удалить страницу ($1)"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Удалить $1?')"
 
-GENERAL
+
+MENU
     ">Main website title",">Название всего вебсайта"
     ">Page to display on homepage",">Какая страница является главной"
     ">Delete files","> Удалить файлы"
@@ -32,6 +35,7 @@ GENERAL
     ">Add new page",">Добавляет новую страницу"
     ">Footer",">Колонтитул (нижняя сноска, footer)"
     ">Upload",">Отправить на сервер"
+
 
 THEMES AND PLUGINS
     "> Check for updates","> Проверка обновлений"
@@ -50,6 +54,7 @@ THEMES AND PLUGINS
     ">Add", "> Добавить"
     ">Read more about custom repositories","> Узнать больше о добавлении своих репозиториев"
 
+
 SECURITY
     ">Admin login URL","> URL для входа админа"
     ">Save your login URL to log into your website next time:",">сохраните/добавьте в закладки ваш URL для входа после изменений:"
@@ -57,7 +62,7 @@ SECURITY
     "Old password","Старый пароль"
     "New password","Новый пароль"
     ">Change password","> Изменить пароль"
-
+    
     ">Backup",">Резервное копирование"
     ">Backup website","Сделать резервную копию сайта"
     "> How to restore backup","> Как восстанавливать резервные копии?"
@@ -66,8 +71,8 @@ SECURITY
     ">ON \(warning: may break your website\)",">ВКЛЮЧИТЬ (Внимание: может сломать Ваш вебсайт!)"
     ">OFF \(reset htaccess to default\)",">ОТКЛЮЧИТЬ (сбросить htaccess файл до дефолта)"
     ">Read more before enabling","> Узнать больше перед тем, как включать"
-    
     ">Last 5 logins",">Последние 5 сохраненных входов"
+
 
 STATISTICS
     ">Statistics",">Статистика"
@@ -78,6 +83,7 @@ STATISTICS
     ">Sessions last two weeks",">Сессии за последние две недели"
     ">Sessions",">Сессии"
     ">Pageviews",">Просмотры"
+
 
 FOOTER
     ">News",">Новости"
