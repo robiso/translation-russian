@@ -53,7 +53,7 @@ THEMES AND PLUGINS
 
 SECURITY
     ">Admin login URL","> URL для входа админа"
-    ">Save your login URL to log into your website next time:",">сохраните/добавьте в закладки ваш URL для входа после изменений:"
+    ">Save your login URL to log in to your website next time:",">сохраните/добавьте в закладки ваш URL для входа после изменений:"
     ">Password",">Пароль"
     "Old password","Старый пароль"
     "New password","Новый пароль"
