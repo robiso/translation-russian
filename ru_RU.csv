@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Пользовательский модуль не найден."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Пользовательский модуль <b>$1</b> удалён из раздела <a $2>$3</a>. Всё, что из него установлено, останется, пока вы это не удалите."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Модуль успешно добавлен в раздел <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Все оставшиеся страницы приватные, поэтому новая главная страница ($1) тоже приватная: посетители получают страницу 404 по адресу сайта. Сделайте её публичной в разделе Настройки -> Меню."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","Приватная страница не может быть главной: посетители получали бы страницу 404 по адресу сайта. Сначала сделайте её публичной."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Не удалось записать $1. Проверьте свободное место на диске и права доступа к папке data; ничего не изменено."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Эту страницу нельзя сохранить: её родительская страница не существует. Сначала создайте родительскую страницу."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Откройте параметры файлов, чтобы увидеть загруженный файл</b>"
     "^Cannot create ZIP archive\.$","Не удалось создать ZIP-архив."
     "^Hide all alerts until next login$","Скрыть все уведомления до следующего входа"
+    "^Make another page public first: the home page cannot be private\.$","Сначала сделайте публичной другую страницу: главная страница не может быть приватной."
