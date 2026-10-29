@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings",">Настройки"
+    "return confirm\('Log out\?'\)","return confirm('Выйти?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title",">Название сайта"
     ">Page to display on homepage",">Какая страница является главной"
     ">visit",">Открыть"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Сделать страницу приватной (видна только вам, пока вы вошли в систему)"""
+    "title=""Make page public""","title=""Сделать страницу публичной"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> приватная</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> публичная</a>"
     ">Add page","> Добавить страницу"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Проверка обновлений"
+    "title=""Remove this repository from the list""","title=""Убрать этот репозиторий из списка"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Убрать $1? Всё, что из него установлено, останется."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Удалить $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Удалить $1?"""
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активировать $1 тему?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активировать $1 тему?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Отключить $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Это плагин типа $1. Установка $2 отключит $3. Продолжить?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Это плагин типа $1. Обновление $2 оставит его включённым и отключит $3. Продолжить?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Это плагин типа $1. Включение $2 отключит $3. Продолжить?"""
     "> Activate","> Активировать"
     "> More info","> Больше сведений"
     "> Install","> Установить"
     ">Installed version:",">Установленная версия:"
     ">Custom repository",">Свой вариант репозитория"
     "Enter URL to custom repository","Введите URL своего варианта репозитория"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Добавление неизвестных модулей может быть ОЧЕНЬ опасным. Вы уверены, что хотите продолжить?')"
     "> Add", "> Добавить"
     "> Read more about custom repositories","> Узнать больше о добавлении своих репозиториев"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Принудительное HTTPS, 30 дневное кеширование, iframes разрешены только с того же источника, защита от сниффинга mime-типов, более строгие политики для cookie и refferer механизмов."
     ">ON \(warning: may break your website\)",">ВКЛЮЧИТЬ (Внимание: может сломать Ваш вебсайт!)"
     ">OFF \(reset htaccess to default\)",">ОТКЛЮЧИТЬ (сбросить htaccess файл до дефолта)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Вы уверены? Это может сломать ваш сайт, если SSL настроен неправильно.')"
     "> Read more before enabling","> Узнать больше перед тем, как включать"
     ">Backup",">Резервное копирование"
     "> Backup website","Сделать резервную копию сайта"
