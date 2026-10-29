@@ -51,7 +51,7 @@ THEMES AND PLUGINS
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Удалить $1?"""
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активировать $1 тему?')"
-    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активировать $1 тему?"""
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активировать тему $1?"""
     "data-confirm=""Disable (.*?)\?""","data-confirm=""Отключить $1?"""
     "data-confirm=""This is an editor plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Это плагин редактора. Установка $1 отключит $2. Продолжить?"""
     "data-confirm=""This is an translation plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Это плагин перевода. Установка $1 отключит $2. Продолжить?"""
